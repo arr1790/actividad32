@@ -28,7 +28,7 @@ export default function RootLayout({
         <MenuPrincipal/>
       
        </aside>  
-       <main className="h-full grow">
+       <main className="mx-2 pb-6 grow overflow-auto">
         {children}
        </main>
       </body> 
